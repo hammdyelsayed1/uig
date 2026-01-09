@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About | Engineer Hamdy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="fade">
+
+<h1 class="page-title">About Me</h1>
+
+<div class="cv">
+  <p>
+    بدأت رحلتي مع البرمجة بدافع الفضول،
+    ومع الوقت تحولت لهوس ببناء الأنظمة القوية
+    التي تعتمد على التفكير قبل الكود.
+  </p>
+
+  <p>
+    I don’t just write code.<br>
+    I design scalable systems with purpose.
+  </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ================= ENGINEERING MINDSET ================= -->
+<style>
+  .mindset {
+    padding: 120px 20px;
+    background: linear-gradient(180deg, #020617, #0a0a0a);
+    color: white;
+  }
+
+  .mindset-container {
+    max-width: 1100px;
+    margin: auto;
+  }
+
+  .mindset-header {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  .mindset-header h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+
+  .mindset-header p {
+    max-width: 720px;
+    margin: auto;
+    opacity: 0.8;
+  }
+
+  .principles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+  }
+
+  .principle {
+    padding: 30px;
+    border-left: 3px solid #3b82f6;
+    background: rgba(255,255,255,0.03);
+    transition: 0.4s ease;
+    position: relative;
+  }
+
+  .principle::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      120deg,
+      transparent,
+      rgba(59,130,246,0.15),
+      transparent
+    );
+    opacity: 0;
+    transition: 0.4s;
+  }
+
+  .principle:hover::after {
+    opacity: 1;
+  }
+
+  .principle:hover {
+    transform: translateX(8px);
+    box-shadow: 0 0 30px rgba(59,130,246,0.25);
+  }
+
+  .principle h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .principle p {
+    opacity: 0.85;
+    line-height: 1.7;
+  }
+</style>
+
+<section class="mindset">
+  <div class="mindset-container">
+
+    <div class="mindset-header">
+      <h2>طريقة تفكيري</h2>
+      <p>
+        هذه ليست شعارات.
+        هذه مبادئ أعمل بها في كل مشروع،
+        وتحدد كيف أتعامل مع المشاكل، الحلول، والنتائج.
+      </p>
+    </div>
+
+    <div class="principles">
+
+      <div class="principle">
+        <h3>الحل قبل الكود</h3>
+        <p>
+          لا أبدأ بالبرمجة فورًا.
+          أبدأ بفهم المشكلة وتصميم الحل،
+          لأن الكود الجيد نتيجة تفكير صحيح.
+        </p>
+      </div>
+
+      <div class="principle">
+        <h3>البساطة قوة</h3>
+        <p>
+          الأنظمة المعقدة ليست ذكية.
+          الذكاء الحقيقي هو بناء حلول بسيطة،
+          واضحة، وسهلة التطوير.
+        </p>
+      </div>
+
+      <div class="principle">
+        <h3>الأداء ليس خيارًا</h3>
+        <p>
+          سرعة الموقع وتجربة المستخدم
+          جزء أساسي من جودة أي مشروع،
+          وليست ميزة إضافية.
+        </p>
+      </div>
+
+      <div class="principle">
+        <h3>التفكير طويل المدى</h3>
+        <p>
+          أبني المشاريع لتنجح اليوم،
+          وتستمر وتكبر غدًا،
+          دون الحاجة لإعادة البناء من الصفر.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<!-- ================= END ENGINEERING MINDSET ================= -->
+
+
+
+
+
+
+<a class="back" href="index.html">← Back</a>
+
+<script src="main.js"></script>
+</body>
+</html>
